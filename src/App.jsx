@@ -56,7 +56,7 @@ function App() {
       title: "Cerimônia e recepção",
       iconPath: PinIcon,
       alt: "map pin icon",
-      href: "https://www.google.com/maps/dir/-3.7283396,-38.5913816/60712-122,+R.+Paurilo+Barroso,+1-732+-+Jardim+Cearense,+Fortaleza+-+CE/@-3.7642618,-38.6183712,13z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x7c74dd7ca009f63:0x5dd13c688cc3d3ed!2m2!1d-38.569534!2d-3.8010606!3e0?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      href: "https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjYveWh2PiUAxUAAAAAHQAAAAAQBg..i&pvq=Cg0vZy8xMXFxbXNuNGQ2IgwKBmJ1ZmZldBACGAM&lqi=ChBtYXJhcG9uZ2EgYnVmZmV0SIajqLzatoCACFoWEAEYACIQbWFyYXBvbmdhIGJ1ZmZldJIBC2V2ZW50X3ZlbnVlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5pZGpreVF6bEJSUkFC-gEECG8QRw&fvr=1&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x7c74ff23e777cdd:0xe5095d8cd5d61cf9",
     },
     {
       title: "Nosso site",
