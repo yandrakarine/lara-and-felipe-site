@@ -7,6 +7,7 @@ import PointIcon from "./assets/icons/svg/hand-pointing.svg";
 import Ramo1Img from "./assets/icons/image/ramo-1.png";
 import LogoImg from "./assets/icons/image/logo-l-e-f.png";
 import UsImg from "./assets/icons/image/lara-e-felipe.jpeg";
+import UsImg2 from "./assets/icons/image/main-lara-e-felipe.png";
 import Ramo1Icon from "./assets/icons/svg/ramo-svg.svg";
 import Ramo2Icon from "./assets/icons/svg/ramo-2-svg.svg";
 import RamoCompostoIcon from "./assets/icons/svg/ramo-composto.svg";
@@ -55,35 +56,35 @@ function App() {
       title: "Cerimônia e recepção",
       iconPath: PinIcon,
       alt: "map pin icon",
-      href: "https://www.google.com/maps/dir//Resid.+Iparana+-+R.+Luiz+Paiva,+75+-+Iparana,+Caucaia+-+CE,+61627-090/@-3.688084,-38.7135447,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7c735ef032d79ef:0x7d80b9d6dcb0c893!2m2!1d-38.631134!2d-3.6881523?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D",
+      href: "https://www.google.com/maps/dir/-3.7283396,-38.5913816/60712-122,+R.+Paurilo+Barroso,+1-732+-+Jardim+Cearense,+Fortaleza+-+CE/@-3.7642618,-38.6183712,13z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x7c74dd7ca009f63:0x5dd13c688cc3d3ed!2m2!1d-38.569534!2d-3.8010606!3e0?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
     },
     {
       title: "Nosso site",
       iconPath: GlobeIcon,
       alt: "globe icon",
-      href: "https://noivos.casar.com/yandra-e-will",
+      href: "https://noivos.casar.com/lara-e-felipe-2026-09-02",
     },
     {
       title: "Confirme presença",
       iconPath: UserCherckIcon,
       alt: "user with check",
-      href: "https://noivos.casar.com/yandra-e-will#/rsvp",
+      href: "https://noivos.casar.com/lara-e-felipe-2026-09-02#/rsvp",
     },
     {
       title: "Lista de presentes",
       iconPath: GiftIcon,
       alt: "gift icon",
-      href: "https://noivos.casar.com/yandra-e-will#/presentes",
+      href: "https://noivos.casar.com/lara-e-felipe-2026-09-02#/presentes",
     },
   ];
-
+// sm:bg-pink-500 md:bg-blue-500 lg:bg-green-500 xl:bg-yellow-500
   return (
-    <div className="relative bg-[#ffffff] bg-[url(https://www.transparenttextures.com/patterns/paper.png)] px-4 min-h-fit max-w-[80rem] mx-auto overflow-hidden">
+    <div className="relative bg-[#ffffff] bg-[url(https://www.transparenttextures.com/patterns/paper.png)] px-4 min-h-fit max-w-[80rem] mx-auto overflow-hidden ">
       <img
         data-aos="fade-up-right"
         src={RamoCompostoIcon}
         alt=""
-        className="absolute -top-[1%] -left-[17%] z-10 w-60"/>
+        className="absolute -top-[1%] -left-[17%] z-10 w-60 sm:-left-[10%] md:w-80 lg:-left-[2%] lg:w-90 lg:rotate-10"/>
       
       <section
         data-aos="fade-down"
@@ -102,7 +103,7 @@ function App() {
           <p className="font-[CormorantGaramondRegular] text-slate-800 text-base text-center uppercase lg:text-xl">
             Com o amor e a alegria de nossas famílias
           </p>
-          <h1 className="font-[CormorantGaramondRegular] text-7xl text-black lg:text-9xl">
+          <h1 className="font-[CormorantGaramondRegular] text-6xl text-black lg:text-9xl">
             Lara e Felipe
           </h1>
           <p className="font-[CormorantGaramondRegular] text-slate-800 text-base text-center uppercase lg:text-xl">
@@ -110,7 +111,7 @@ function App() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-3 mb-6 lg:gap-5 lg:mb-24">
+        <div className="flex flex-col items-center justify-center gap-3 mb-10 lg:gap-5 lg:mb-24">
           <p className="font-[CormorantGaramondRegular] text-3xl mb-4 uppercase lg:text-4xl">
             02.09.2026
           </p>
@@ -160,8 +161,8 @@ function App() {
       >
         <div
           id="parallax_bg"
-          className={`absolute rounded-2xl left-0 top-0 right-0 bg-fixed h-140 bg-no-repeat bg-cover bg-center bg-[url(./assets/icons/image/lara-e-felipe.jpeg)] lg:h-150`}
-          style={{ backgroundImage: UsImg }}
+          className="absolute rounded-2xl left-0 top-0 right-0 bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-150"
+          style={{ backgroundImage: `url(${UsImg})` }}
         ></div>
       </section>
       <div className="flex flex-col gap-6 mt-35 mb-12 shrink-0 2xl:mt-0">
@@ -175,7 +176,7 @@ function App() {
       <img
         src={Ramo1Icon}
         alt=""
-        className="absolute -bottom-[3%] -right-[14%] z-10 w-40 -rotate-20"
+        className="absolute -bottom-[3%] -right-[8%] z-10 w-40 -rotate-10 sm:w-60 sm:-rotate-20 lg:w-80"
       />
     </div>
   );
