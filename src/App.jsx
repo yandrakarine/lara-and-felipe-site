@@ -7,7 +7,7 @@ import PointIcon from "./assets/icons/svg/hand-pointing.svg";
 import Ramo1Img from "./assets/icons/image/ramo-1.png";
 import LogoImg from "./assets/icons/image/logo-l-e-f.png";
 import UsImg from "./assets/icons/image/lara-e-felipe.jpeg";
-import UsImg2 from "./assets/icons/image/main-lara-e-felipe.png";
+import UsImg2 from "./assets/icons/image/lara-e-felipe-main-2.png";
 import Ramo1Icon from "./assets/icons/svg/ramo-svg.svg";
 import Ramo2Icon from "./assets/icons/svg/ramo-2-svg.svg";
 import RamoCompostoIcon from "./assets/icons/svg/ramo-composto.svg";
@@ -162,7 +162,7 @@ function App() {
         <div
           id="parallax_bg"
           className="absolute rounded-2xl left-0 top-0 right-0 bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-150"
-          style={{ backgroundImage: `url(${UsImg})` }}
+          style={{ backgroundImage: `url(${UsImg2})` }}
         ></div>
       </section>
       <div className="flex flex-col gap-6 mt-35 mb-12 shrink-0 2xl:mt-0">
