@@ -117,7 +117,7 @@ function App() {
           </p>
           <p className="font-[MontserratRegular] text-base text-center lg:text-md">
           Às 18h no Casa Maraponga, <br className="lg:hidden" />
-            <br className=" lg:hidden" /> localizado na R. Paurilo Barroso, 521 - Jardim Cearense
+            <br className=" lg:hidden" /> <span className="md:hidden">Localizado</span><span className="hidden md:inline">localizado</span> na R. Paurilo Barroso, 521 - Jardim Cearense
           </p>
           <p className="font-[MontserratRegular] text-base text-center lg:text-md">
             Após a cerimônia haverá a recepção no local.
