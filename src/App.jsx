@@ -161,7 +161,7 @@ function App() {
       >
         <div
           id="parallax_bg"
-          className="absolute rounded-2xl left-0 top-0 right-0 bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-150"
+          className="absolute rounded-2xl left-0 top-0 right-0 bg-scroll lg:bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-150"
           style={{ backgroundImage: `url(${UsImg2})` }}
         ></div>
       </section>
