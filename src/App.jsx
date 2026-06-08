@@ -116,7 +116,7 @@ function App() {
             02.09.2026
           </p>
           <p className="font-[MontserratRegular] text-base text-center lg:text-md">
-          Às 19h no Casa Maraponga, <br className="lg:hidden" />
+          Às 18h no Casa Maraponga, <br className="lg:hidden" />
             <br className=" lg:hidden" /> localizado na R. Paurilo Barroso, 521 - Jardim Cearense
           </p>
           <p className="font-[MontserratRegular] text-base text-center lg:text-md">
@@ -157,7 +157,7 @@ function App() {
 
       <section
         id="paralax_section"
-        className="relative flex min-h-[60dvh] items-center justify-center mb-10"
+        className="relative flex min-h-[60dvh] items-center justify-center mb-16"
       >
         <div
           id="parallax_bg"
@@ -169,7 +169,7 @@ function App() {
         <span className="font-[CormorantGaramondRegular] pl-5 text-base text-left lg:text-2xl">
           Aguardamos você! Com carinho,
         </span>
-        <span className="font-[HalimunRegular] text-3xl text-slate-600 text-left pl-10 lg:text-4xl">
+        <span className="font-[HalimunRegular] text-3xl text-slate-600 text-left pl-5 sm:pl-10 lg:text-4xl">
           Lara e Felipe
         </span>
       </div>
