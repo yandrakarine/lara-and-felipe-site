@@ -76,7 +76,7 @@ function App() {
   ];
 // sm:bg-pink-500 md:bg-blue-500 lg:bg-green-500 xl:bg-yellow-500
   return (
-    <div className="relative bg-[#ffffff] bg-[url(https://www.transparenttextures.com/patterns/paper.png)] px-4 min-h-fit max-w-[80rem] mx-auto overflow-hidden ">
+    <div className="relative bg-[#ffffff] bg-[url(https://www.transparenttextures.com/patterns/paper.png)] px-4 min-h-fit max-w-[80rem] mx-auto overflow-hidden">
       <img
         data-aos="fade-up-right"
         src={RamoCompostoIcon}
@@ -158,7 +158,7 @@ function App() {
       >
         <div
           id="parallax_bg"
-          className="absolute rounded-2xl left-0 top-0 right-0 bg-scroll lg:bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-160"
+          className="absolute rounded-2xl left-0 top-0 right-0 bg-scroll lg:bg-fixed h-140 bg-no-repeat bg-cover bg-center sm:bg-[position:center_20%] md:bg-[position:center_16%] lg:bg-[position:center_5%] lg:h-160"
           style={{ backgroundImage: `url(${UsImg2})` }}
         ></div>
       </section>
