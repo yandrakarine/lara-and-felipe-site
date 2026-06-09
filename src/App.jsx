@@ -4,12 +4,9 @@ import GiftIcon from "./assets/icons/svg/gift.svg";
 import GlobeIcon from "./assets/icons/svg/globe.svg";
 import UserCherckIcon from "./assets/icons/svg/user-check.svg";
 import PointIcon from "./assets/icons/svg/hand-pointing.svg";
-import Ramo1Img from "./assets/icons/image/ramo-1.png";
 import LogoImg from "./assets/icons/image/logo-l-e-f.png";
-import UsImg from "./assets/icons/image/lara-e-felipe.jpeg";
 import UsImg2 from "./assets/icons/image/lara-e-felipe-main-2.png";
 import Ramo1Icon from "./assets/icons/svg/ramo-svg.svg";
-import Ramo2Icon from "./assets/icons/svg/ramo-2-svg.svg";
 import RamoCompostoIcon from "./assets/icons/svg/ramo-composto.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -116,7 +113,7 @@ function App() {
             02.09.2026
           </p>
           <p className="font-[MontserratRegular] text-base text-center lg:text-md">
-          Às 18h no Casa Maraponga, <br className="lg:hidden" />
+          Às 18h no Casa Maraponga Buffet, <br className="lg:hidden" />
             <br className=" lg:hidden" /> <span className="md:hidden">Localizado</span><span className="hidden md:inline">localizado</span> na R. Paurilo Barroso, 521 - Jardim Cearense
           </p>
           <p className="font-[MontserratRegular] text-base text-center lg:text-md">
@@ -161,7 +158,7 @@ function App() {
       >
         <div
           id="parallax_bg"
-          className="absolute rounded-2xl left-0 top-0 right-0 bg-scroll lg:bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-150"
+          className="absolute rounded-2xl left-0 top-0 right-0 bg-scroll lg:bg-fixed h-140 bg-no-repeat bg-cover bg-center lg:bg-top lg:h-160"
           style={{ backgroundImage: `url(${UsImg2})` }}
         ></div>
       </section>
