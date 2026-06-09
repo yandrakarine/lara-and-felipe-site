@@ -98,7 +98,7 @@ function App() {
       >
         <div className="flex flex-col items-center justify-center gap-5 mb-8 lg:gap-8 lg:mb-12">
           <p className="font-[CormorantGaramondRegular] text-slate-800 text-base text-center uppercase lg:text-xl">
-            Com o amor e a alegria de nossas famílias
+            Com o amor e a alegria de suas famílias
           </p>
           <h1 className="font-[CormorantGaramondRegular] text-6xl text-black lg:text-9xl">
             Lara e Felipe
